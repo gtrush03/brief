@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <!-- macOS rounded-square mask: ~22.37% corner radius ≈ 229 of 1024 -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0a0a"/>
+      <stop offset="100%" stop-color="#050505"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#a89779"/>
+      <stop offset="55%" stop-color="#928466"/>
+      <stop offset="100%" stop-color="#776a4f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="229" fill="url(#bg)"/>
+  <!-- subtle inner stroke for depth -->
+  <rect x="6" y="6" width="1012" height="1012" rx="225" fill="none" stroke="#1a1714" stroke-width="2" opacity="0.6"/>
+  <text
+    x="50%"
+    y="54%"
+    text-anchor="middle"
+    dominant-baseline="central"
+    font-family="Inter, -apple-system, BlinkMacSystemFont, 'SF Pro Display', system-ui, sans-serif"
+    font-size="700"
+    font-weight="700"
+    letter-spacing="-30"
+    fill="url(#gold)"
+  >S</text>
+</svg>
